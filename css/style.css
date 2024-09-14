@@ -151,7 +151,8 @@ body {
   transition: all 0.6s;
 }
 
-.header__btn:hover {
+.header__btn:hover,
+.special-offer__btn:hover {
   background: rgb(233, 116, 116);
 }
 
@@ -348,6 +349,10 @@ foreignObject {
   text-align: center;
 }
 
+.special-offer__item-box:hover {
+  filter: opacity(0.5);
+}
+
 .special-offer__item-text {
   width: 236px;
   margin: 0 auto;
@@ -384,4 +389,73 @@ foreignObject {
 
 .special-offer__btn {
   width: 100%;
+  transition: all 1s;
+}
+
+.services {
+  margin-bottom: 200px;
+}
+
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__text {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.services__list {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.services__box {
+  width: 630px;
+  margin-right: 80px;
+}
+
+.services__list-item {
+  padding-left: 36px;
+  position: relative;
+}
+
+.services__list-item::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  left: 0;
+  border-radius: 50%;
+  top: 5px;
+}
+
+.services__desc {
+  font-size: 12px;
+}
+
+.services__buttons {
+  width: 500px;
+}
+
+.services__btn {
+  width: 100%;
+}
+
+.services__btn--first {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.services__btn--first:after {
+  content: "";
+  background-image: url("/images/photographer.png");
+  position: absolute;
+  width: 192px;
+  height: 150px;
+  right: 0;
+  top: -130px;
 }
