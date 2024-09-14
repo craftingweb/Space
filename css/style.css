@@ -556,3 +556,43 @@ foreignObject {
   justify-content: flex-end;
   margin-left: auto;
 }
+
+.footer {
+  background-image: url(/images/footer-bg.jpg);
+  background-size: cover;
+  padding: 100px 0 150px;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__text {
+  width: 165px;
+  margin-right: 52px;
+}
+
+.footer__text + .footer__text {
+  margin-top: 52px;
+}
+
+.footer__list-item {
+  margin-bottom: 20px;
+  margin-right: 100px;
+  text-transform: uppercase;
+}
+
+.footer__contact-item {
+  margin-bottom: 20px;
+}
+
+.footer__link:hover,
+.footer__contact-link::hover {
+  color: #cb0e0e;
+}
+
+.footer__link,
+.footer__contact-link {
+  transition: all 0.6s;
+}
