@@ -6,4 +6,8 @@ $(function () {
       '<img class="slider__arrow slider__arrow-right" src="/images/arrow-right.svg" alt="left" />',
     fade: true,
   });
+
+  $(".menu-btn").on("click", function () {
+    $(".menu__list").toggleClass("active");
+  });
 });
