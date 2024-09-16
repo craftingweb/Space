@@ -682,6 +682,21 @@ foreignObject {
     width: 100%;
     margin-bottom: 20px;
   }
+  .contacts__items {
+    display: block;
+  }
+  .contacts__item-left,
+  .contacts__item-right {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .info {
+    padding-bottom: 0;
+  }
+  .contacts__text {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -834,6 +849,32 @@ foreignObject {
   .slider__desc {
     font-size: 18px;
     line-height: 24px;
+  }
+  .footer__items {
+    display: block;
+  }
+  .footer__text {
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer__text + .footer__text {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .footer__list,
+  .footer__contact-list {
+    margin-right: 0;
+    width: 100%;
+  }
+  .footer__list {
+    margin-bottom: 50px;
+  }
+  .footer {
+    text-align: center;
+    padding: 0px 0 50px;
+  }
+  .footer__list-item {
+    margin-right: 0px;
   }
 }
 
