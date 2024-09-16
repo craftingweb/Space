@@ -663,6 +663,25 @@ foreignObject {
   .how__box-item:last-child {
     border-left: none;
   }
+  .to-book__inner {
+    display: block;
+  }
+  .to-book__text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .to-book__desc {
+    margin-top: 0;
+    display: block;
+    width: 100%;
+  }
+  .special-offer__inner {
+    display: block;
+  }
+  .special-offer__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -790,6 +809,32 @@ foreignObject {
   .header {
     padding-top: 30px;
   }
+  .services__inner {
+    display: block;
+  }
+  .services__box {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 170px;
+  }
+  .services__buttons {
+    max-width: 500px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .slick-slide img {
+    max-width: 100%;
+  }
+  .services {
+    margin-bottom: 100px;
+  }
+  .slider__box {
+    padding: 0;
+  }
+  .slider__desc {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -805,5 +850,11 @@ foreignObject {
 
   .header {
     background-position: right center;
+  }
+  .to-book {
+    background-position: right;
+  }
+  .how {
+    padding-bottom: 0;
   }
 }
