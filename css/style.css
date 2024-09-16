@@ -601,6 +601,10 @@ foreignObject {
   display: none;
 }
 
+.how__box-list {
+  display: none;
+}
+
 @media (max-width: 1150px) {
   .about__item {
     display: block;
@@ -629,6 +633,35 @@ foreignObject {
 
   .about__table {
     width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .how__box svg {
+    display: none;
+  }
+  .how__box-list {
+    display: block;
+  }
+  .how__box-item {
+    padding-bottom: 30px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid white;
+    position: relative;
+  }
+  .how__box-item::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    left: -10px;
+    border-radius: 50%;
+  }
+  .how__box-item:last-child {
+    border-left: none;
   }
 }
 
